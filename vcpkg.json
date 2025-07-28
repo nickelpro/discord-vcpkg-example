@@ -1,0 +1,19 @@
+{
+  "name": "discord-vcpkg-example",
+  "version": "0.0.1",
+  "description": "Example of bootstrapping vcpkg",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": [
+    "llhttp"
+  ],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "git",
+      "baseline": "7e21420f775f72ae938bdeb5e6068f722088f06a",
+      "repository": "https://github.com/microsoft/vcpkg.git"
+    }
+  }
+}
